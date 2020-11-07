@@ -13,7 +13,7 @@ function getRandomInt(max) {
 
 function generatePassword(){
   var length = prompt("how many char do you need?");
-if(length<=8){
+if(length<=7){
   alert('you need at least 8 chars');
   return generatePassword();
 }
